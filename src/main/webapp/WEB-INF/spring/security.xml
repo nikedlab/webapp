@@ -20,7 +20,7 @@ http://www.springframework.org/schema/security/spring-security-3.0.xsd">
 	<authentication-manager>
 		<authentication-provider>
 			<user-service>
-				<user name="admin" password="pass" authorities="ROLE_ADMIN,ROLE_USER" />
+				<user name="admin" password="admin" authorities="ROLE_ADMIN,ROLE_USER" />
 				<user name="user1" password="1111" authorities="ROLE_USER" />
 				<user name="user2" password="2222" disabled="true" authorities="ROLE_USER" />
 			</user-service>

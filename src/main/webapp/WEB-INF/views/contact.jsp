@@ -70,6 +70,5 @@
 		</c:forEach>
 	</table>
 </c:if>
-Test text
 </body>
 </html>
